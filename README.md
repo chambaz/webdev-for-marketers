@@ -8,3 +8,7 @@ A collection of WebDev tips and tricks for marketers
 	$ npm start
 
 **Start**: [http://localhost:8080](http://localhost:8080)
+
+**Slides**
+1. [HTML Basics](/slides/html-basics.html)
+2. [On-page SEO (coming soon)](#)
