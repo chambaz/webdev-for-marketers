@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Proxima;
+  font-weight: 400;
+  font-style: regular;
+  src: url('/dist/fonts/proxima/ProximaNova_Bold.eot');
+  src: url('/dist/fonts/proxima/ProximaNova_Bold.eot?#iefix') format('embedded-opentype'),
+  		url('/dist/fonts/proxima/ProximaNova_Bold.woff') format('woff'),
+		url('/dist/fonts/proxima/ProximaNova_Bold.ttf') format('truetype'),
+		url('/dist/fonts/proxima/ProximaNova_Bold.svg#ProximaLight') format('svg');
+}
+
+@font-face {
+  font-family: Tisa;
+  font-weight: 200;
+  font-style: regular;
+  src: url('/dist/fonts/tisa/tisapro-regular-webfont.eot');
+  src: url('/dist/fonts/tisa/tisapro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  		url('/dist/fonts/tisa/tisapro-regular-webfont.woff') format('woff'),
+		url('/dist/fonts/tisa/tisapro-regular-webfont.ttf') format('truetype'),
+		url('/dist/fonts/tisa/tisapro-regular-webfont.svg#ProximaLight') format('svg');
+}
