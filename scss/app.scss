@@ -6,9 +6,9 @@
 @import 'settings';
 @import 'fonts';
 
+@include normalize();
+
 .reveal {
   @import 'base';
   @import 'intro';
 }
-
-@include normalize();

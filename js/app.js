@@ -1,6 +1,7 @@
 const Reveal = require('reveal.js');
 
 Reveal.initialize({
+	width: 1100,
 	history: true,
     dependencies: [
         // Syntax highlight for <code> elements
