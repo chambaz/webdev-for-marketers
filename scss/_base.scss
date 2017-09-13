@@ -104,6 +104,42 @@ h6,
   color: $orange;
 }
 
+.green {
+  color: $green;
+}
+
+.gray {
+  color: $gray;
+}
+
 .no-bullets-list {
   list-style: none;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.btn {
+  align-items: center;
+  background: $orange;
+  border: solid 2px $orange;
+  color: $white;
+  display: flex;
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 200px;
+  padding: 15px 30px;
+  transition: .3s;
+}
+
+.btn:hover {
+  background: $white;
+  border-color: $orange;
+  color: $orange;
+}
+
+.btn__icon {
+  font-size: 14px;
+  margin-left: 20px;
 }
