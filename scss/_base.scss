@@ -127,8 +127,9 @@ h6,
   color: $white;
   display: flex;
   font-size: 18px;
+  justify-content: center;
   margin: 0 auto;
-  max-width: 200px;
+  max-width: 160px;
   padding: 15px 30px;
   transition: .3s;
 }
