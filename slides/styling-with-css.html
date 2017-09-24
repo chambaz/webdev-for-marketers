@@ -13,6 +13,215 @@
 						<h1>🤓 Styling with CSS 🤓</h1>
 				</section>
 
+        <!-- What is CSS -->
+				<section data-transition="fade">
+					<section data-transition="fade">
+						<h1>What is CSS?</h1>
+					</section>
+					<section data-transition="fade">
+						<h2>
+							<strong class="orange">C</strong>ascading
+							<strong class="orange">S</strong>tyle
+							<strong class="orange">S</strong>heets
+						</h2>
+					</section>
+					<section data-transition="fade">
+            <h2>
+							<strong class="orange">C</strong>ascading
+							<strong class="orange">S</strong>tyle
+							<strong class="orange">S</strong>heets
+						</h2>
+						<p>
+							Create text files known as style sheets to apply styles to HTML elements.
+						</p>
+					</section>
+					<section data-transition="fade">
+						<h2>Why cascading?</h2>
+					</section>
+					<section data-transition="fade">
+            <h2>Why cascading?</h2>
+						<p>There are several levels of priority in CSS, styles with higher priority
+            will overwrite those proceeding, this is know as cascading. </p>
+					</section>
+				</section>
+				<!-- End What is CSS -->
+
+        <!-- Basic Styling -->
+				<section data-transition="fade">
+					<section data-transition="fade">
+						<h1>Basic Styling</h1>
+					</section>
+          <section data-transition="fade">
+						<h2>Basic Styling</h2>
+            <p class="Heading--four">
+              <span class="orange">property</span>: <span class="green">value</span>;
+            </p>
+					</section>
+          <section data-transition="fade">
+						<h2>Basic Styling</h2>
+            <p class="Heading--four">
+              <span class="orange">color</span>: <span class="green">green</span>;
+            </p>
+					</section>
+          <section data-transition="fade">
+						<h2>Basic Styling</h2>
+            <p class="Heading--four">
+              <span class="orange">color</span>: <span class="green">#00ff00</span>;
+            </p>
+					</section>
+        </section>
+        <!-- End Basic Styling -->
+
+        <!-- Inline Styling -->
+				<section data-transition="fade">
+					<section data-transition="fade">
+						<h1>Inline Styling</h1>
+					</section>
+          <section data-transition="fade">
+            <h2>Inline Styles</h2>
+            <p class="Heading--four">
+              <span class="orange">&lt;</span>p<span class="orange">&gt;</span>Hello world<span class="orange">&lt;</span>/p<span class="orange">&gt;</span>
+            </p>
+          </section>
+          <section data-transition="fade">
+            <h2>Inline Styles</h2>
+            <p class="Heading--four">
+              <span class="orange">&lt;</span>p
+              <span class="gray">style=""</span><span class="orange">&gt;</span>
+              Hello world<span class="orange">&lt;</span>/p<span class="orange">&gt;</span>
+            </p>
+          </section>
+          <section data-transition="fade">
+            <h2>Inline Styles</h2>
+            <p class="Heading--four">
+              <span class="orange">&lt;</span>p
+              <span class="gray">style="</span><span class="orange">color</span>: <span class="green">#00ff00</span>;<span class="gray">"</span><span class="orange">&gt;</span>
+              <span class="green">Hello world</span><span class="orange">&lt;</span>/p<span class="orange">&gt;</span>
+            </p>
+          </section>
+        </section>
+        <!-- End Inline Styling -->
+
+        <!-- Separating Concerns -->
+				<section data-transition="fade">
+					<section data-transition="fade">
+						<h1>Seaparating Concerns</h1>
+					</section>
+          <section data-transition="fade">
+						<h1>Seaparating Concerns</h1>
+            <p>Separating our markup and stylesheets allow us to have more fine-grained control over styling.</p>
+					</section>
+          <section class="text-left" data-transition="fade">
+            <p class="orange">&lt;head&gt;</p>
+              <p>
+                <span class="orange">&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;</span>
+                  This is the title of my page
+                <span class="orange">&lt;/title&gt;</span>
+              </p>
+              <p>
+                <span class="orange">&nbsp;&nbsp;&nbsp;&nbsp;&lt;style&gt;</span>
+                  <br />
+                  <span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// styles go here</span>
+                  <br />
+                <span class="orange">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/style&gt;</span>
+              </p>
+            <p class="orange">&lt;/head&gt;</p>
+          </section>
+          <section class="text-left" data-transition="fade">
+            <p class="orange">&lt;head&gt;</p>
+              <p>
+                <span class="orange">&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;</span>
+                  This is the title of my page
+                <span class="orange">&lt;/title&gt;</span>
+              </p>
+              <p>
+                <span class="orange">&nbsp;&nbsp;&nbsp;&nbsp;&lt;link</span> <span class="green">href=</span><span class="gray">"styles.css"</span><span class="orange"> /&gt;</span>
+              </p>
+            <p class="orange">&lt;/head&gt;</p>
+          </section>
+        </section>
+        <!-- End Separating Concerns -->
+
+        <!-- Selectors -->
+				<section data-transition="fade">
+					<section data-transition="fade">
+						<h1>Selectors</h1>
+					</section>
+          <section data-transition="fade">
+						<h2>Selectors</h2>
+            <p>Selectors are patterns used to select the element(s) you want to style.</p>
+					</section>
+          <section data-transition="fade">
+						<h2>Selectors</h2>
+            <p class="fragment text-left Heading--five">
+              <span class="orange">&lt;h1</span><span class="orange">&gt;</span>Hello World<span class="orange">&lt;/h1&gt;</span>
+            </p>
+            <p class="fragment text-left Heading--five">
+              h1 {<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="orange">color</span>: <span class="green">#00ff00</span>;<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="orange">font-weight</span>: <span class="green">bold</span>;
+              <br />}
+            </p>
+          </section>
+          <section data-transition="fade">
+						<h2>Selectors</h2>
+            <p class="fragment text-left Heading--five">
+              <span class="orange">&lt;h1</span> <span class="green">class=</span><span class="gray">"my-heading"</span><span class="orange">&gt;</span>Hello world<span class="orange">&lt;/h1&gt;</span>
+              <br />
+              <span class="orange">&lt;h3</span> <span class="green">class=</span><span class="gray">"my-heading"</span><span class="orange">&gt;</span>Hello world<span class="orange">&lt;/h3&gt;</span>
+            </p>
+            <p class="fragment text-left Heading--five">
+              .my-heading {<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="orange">color</span>: <span class="green">#00ff00</span>;<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="orange">font-weight</span>: <span class="green">bold</span>;
+              <br />}
+            </p>
+          </section>
+          <section data-transition="fade">
+						<h2>Selectors</h2>
+            <p class="fragment text-left Heading--five">
+              .masthead p {<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="orange">color</span>: <span class="green">#00ff00</span>;<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="orange">font-weight</span>: <span class="green">bold</span>;
+              <br />}
+            </p>
+          </section>
+          <section data-transition="fade">
+            <img src="/img/selectors.jpg" />
+          </section>
+          <section data-transition="fade">
+            <img src="/img/selectors-2.jpg" />
+          </section>
+          <section data-transition="fade">
+            <img src="/img/selectors-3.jpg" />
+          </section>
+        </section>
+        <!-- End Selectors -->
+
+        <!-- The Cascade -->
+				<section data-transition="fade">
+					<section data-transition="fade">
+						<h1>The Cascade</h1>
+          </section>
+        </section>
+        <!-- End The Cascade -->
+
+        <!-- Properties -->
+				<section data-transition="fade">
+					<section data-transition="fade">
+						<h1>Properties</h1>
+          </section>
+        </section>
+        <!-- End Properties -->
+
+        <!-- Using Chrome Dev Tools -->
+				<section data-transition="fade">
+					<section data-transition="fade">
+						<h1>Using Chrome Dev Tools</h1>
+          </section>
+        </section>
+        <!-- End Using Chrome Dev Tools -->
+
         <!-- Next Steps -->
 				<section data-transition="fade">
 						<h1>🤓 Next Steps 🤓</h1>
