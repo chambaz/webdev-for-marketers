@@ -179,10 +179,27 @@
           </section>
           <section data-transition="fade">
 						<h2>Selectors</h2>
-            <p class="fragment text-left Heading--five">
+            <p class="text-left Heading--five">
               .masthead p {<br />
               &nbsp;&nbsp;&nbsp;&nbsp;<span class="orange">color</span>: <span class="green">#00ff00</span>;<br />
               &nbsp;&nbsp;&nbsp;&nbsp;<span class="orange">font-weight</span>: <span class="green">bold</span>;
+              <br />}
+            </p>
+          </section>
+          <section data-transition="fade">
+						<h2>Selectors</h2>
+            <p class="text-left Heading--five">
+              .masthead .masther-left,<br />.masthead .masthead-right {<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="orange">color</span>: <span class="green">#00ff00</span>;<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="orange">font-weight</span>: <span class="green">bold</span>;
+              <br />}
+            </p>
+          </section>
+          <section data-transition="fade">
+						<h2>Selectors</h2>
+            <p class="text-left Heading--five">
+              .masthead .masthead-link:hover {<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="orange">color</span>: <span class="green">#ff0000</span>;
               <br />}
             </p>
           </section>
@@ -198,6 +215,48 @@
         </section>
         <!-- End Selectors -->
 
+        <!-- Media Queries -->
+				<section data-transition="fade">
+					<section data-transition="fade">
+						<h1>Media Queries</h1>
+            <p class="text-left Heading--six">
+              .masthead p {<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="orange">color</span>: <span class="green">#00ff00</span>;<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="orange">font-weight</span>: <span class="green">bold</span>;
+              <br />}
+            </p>
+            <p class="fragment text-left Heading--six">
+              @media(min-width: 600px) {<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;.masthead p {<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="orange">color</span>: <span class="green">#ff0000</span>;<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;}<br />
+              }
+            </p>
+					</section>
+          <section data-transition="fade">
+						<h1>Media Queries</h1>
+            <p class="text-left Heading--six">
+              @media(max-width: 600px) { }
+            </p>
+            <p class="fragment text-left Heading--six">
+              @media(min-height: 600px) { }
+            </p>
+            <p class="fragment text-left Heading--six">
+              @media(orientation: landscape) { }
+            </p>
+            <p class="fragment text-left Heading--six">
+              @media(min-height: 600px) and (orientation: portrait) { }
+            </p>
+					</section>
+          <section data-transition="fade">
+            <h2>
+              @media print { }
+            </h2>
+            <br />
+            <h1>😱</h1>
+					</section>
+        </section>
+
         <!-- The Cascade -->
 				<section data-transition="fade">
 					<section data-transition="fade">
@@ -209,6 +268,17 @@
             The style sheet with the highest priority controls the content
             display. Declarations not set in the highest priority source are
             passed on to a source of lower priority. This is known as the cascade.</p>
+          </section>
+          <section data-transition="fade">
+            <img src="/img/sources.png" />
+          </section>
+          <section data-transition="fade">
+						<h2>Selectors</h2>
+            <p class="text-left Heading--five">
+              .masthead p {<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="orange">color</span>: <span class="green">#00ff00</span> <span class="red">!important</span>;
+              <br />}
+            </p>
           </section>
           <section data-transition="fade">
             <img src="/img/sources.png" />
