@@ -20,7 +20,7 @@ a {
 }
 
 ul li {
-  margin: .3125em 0;
+  margin: 0.3125em 0;
 }
 
 strong {
@@ -116,12 +116,20 @@ h6,
   color: $red;
 }
 
+.blue {
+  color: $blue;
+}
+
 .no-bullets-list {
   list-style: none;
 }
 
 .text-left {
   text-align: left;
+}
+
+.strike-through {
+  text-decoration: line-through;
 }
 
 .btn {
@@ -135,7 +143,7 @@ h6,
   margin: 0 auto;
   max-width: 160px;
   padding: 15px 30px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .btn:hover {
