@@ -29,14 +29,16 @@
 
           <section data-transition="fade">
             <blockquote>
-							Semantics (from Ancient Greek: σημαντικός sēmantikos, "significant")
-							is primarily the linguistic, and also philosophical, study of meaning in
-							language.
+							JavaScript (/ˈdʒɑːvəˌskrɪpt/[6]), often abbreviated as JS,
+              is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm,
+              and interpreted programming language. Alongside HTML and CSS,
+              JavaScript is one of the three core technologies of World Wide Web content production.
+              It is used to make webpages interactive and provide online programs, including video games.
 						</blockquote>
           </section>
 
           <section data-transition="fade">
-            <h2 class="fragment" data-transition="fade">
+            <h2>
               <span class="orange">HTML</span> is <span class="green">content</span>
             </h2>
             <h2 class="fragment" data-transition="fade">
@@ -46,6 +48,31 @@
               <span class="orange">JS</span> is <span class="green">behavior</span>
             </h2>
           </section>
+
+          <section data-transition="fade">
+            <h2>
+              <span class="orange">JavaScript</span> is a <br /><span class="green">programming language</span>
+            </h2>
+          </section>
+
+          <section data-transition="fade">
+            <h2>
+              <span class="orange">Client-side</span>
+            </h2>
+            <h2 class="fragment" data-transition="fade">
+              <span class="orange">Front-end</span>
+            </h2>
+          </section>
+
+          <section data-transition="fade">
+            <h2>
+              <span class="orange">In the browser!</span>
+            </h2>
+          </section>
+
+          <section data-transition="fade">
+            <img src="/img/client-server-model.jpg" />
+          </section>
         </section>
         <!-- End What is JS -->
 
@@ -53,7 +80,7 @@
         <section data-transition="fade">
           <section data-transition="fade">
   					<h2>Basic JavaScript</h2>
-            <p class="Heading--four text-left">
+            <p class="fragment Heading--four text-left">
               <span class="red">var</span> <span class="green">x</span> = <span class="blue">10</span><br />
               <span class="green">x</span> + <span class="blue">10</span>
             </p>
@@ -65,17 +92,40 @@
 
           <section data-transition="fade">
   					<h2>Math</h2>
+          </section>
+
+          <section data-transition="fade">
+  					<h2>Math</h2>
             <p class="Heading--four text-left">
               <span class="red">var</span> <span class="green">x</span> = <span class="blue">10</span><br />
-              <span class="green">x</span> + <span class="blue">10</span>
+              <span class="red">var</span> <span class="green">y</span> = <span class="green">x</span> * <span class="blue">100</span><br />
+              (<span class="green">x</span> + <span class="blue">10</span>) / <span class="green">y</span>
             </p>
+          </section>
+
+          <section data-transition="fade">
+  					<h2>Strings</h2>
           </section>
 
           <section data-transition="fade">
   					<h2>Strings</h2>
             <p class="Heading--four text-left">
               <span class="red">var</span> <span class="green">x</span> = <span class="blue">10</span><br />
-              <span class="green">x</span> + <span class="blue">10</span>
+              <span class="red">var</span> <span class="green">y</span> = <span class="green">x</span> * <span class="blue">100</span><br />
+              (<span class="green">x</span> + <span class="blue">10</span>) / <span class="green">y</span>
+            </p>
+          </section>
+
+          <section data-transition="fade">
+  					<h2>Functions</h2>
+          </section>
+
+          <section data-transition="fade">
+  					<h2>Functions</h2>
+            <p class="Heading--four text-left">
+              <span class="red">var</span> <span class="green">x</span> = <span class="blue">10</span><br />
+              <span class="red">var</span> <span class="green">y</span> = <span class="green">x</span> * <span class="blue">100</span><br />
+              (<span class="green">x</span> + <span class="blue">10</span>) / <span class="green">y</span>
             </p>
           </section>
         </section>
@@ -85,10 +135,6 @@
         <section data-transition="fade">
           <section data-transition="fade">
   					<h2>Adding Behavior to HTML</h2>
-            <p class="Heading--four text-left">
-              <span class="red">var</span> <span class="green">x</span> = <span class="blue">10</span><br />
-              <span class="green">x</span> + <span class="blue">10</span>
-            </p>
           </section>
 
           <section data-transition="fade">
@@ -96,7 +142,36 @@
           </section>
 
           <section data-transition="fade">
+            <blockquote>
+							The Document Object Model (DOM) is a cross-platform and
+              language-independent application programming interface that treats
+              an HTML document as a tree structure wherein each node is an object
+              representing a part of the document.
+						</blockquote>
+          </section>
+
+          <section data-transition="fade">
+            <img src="/img/dom.jpg" />
+          </section>
+
+          <section data-transition="fade">
+  					<h2>JavaScript DOM APIs for<br /> querying and manipulation</h2>
+          </section>
+
+          <section data-transition="fade">
   					<h2>Remember CSS selectors?</h2>
+          </section>
+
+          <section data-transition="fade">
+            <img src="/img/selectors.jpg" />
+          </section>
+
+          <section data-transition="fade">
+            <img src="/img/selectors-2.jpg" />
+          </section>
+
+          <section data-transition="fade">
+            <img src="/img/selectors-3.jpg" />
           </section>
 
           <section data-transition="fade">
@@ -104,7 +179,38 @@
           </section>
 
           <section data-transition="fade">
+  					<h3>document.querySelector()</h3>
+            <p>Fetch a set of elements from the DOM that match provided selector</p>
+          </section>
+
+          <section data-transition="fade">
+  					<div class="text-left">
+              <h3>document.querySelector()</h3>
+              <p><span class="orange">document.querySelector(</span><span class="green">'.nav > ul li.nav-item'</span><span class="orange">)</span></p>
+              <p class="fragment"><span class="orange">document.querySelector(</span><span class="green">'.sidebar .block:first-child'</span><span class="orange">)</span></p>
+              <p class="fragment"><span class="orange">document.querySelector(</span><span class="green">'.sidebar .block input'</span><span class="orange">)</span></p>
+            </div>
+          </section>
+
+          <section data-transition="fade">
+  					<h2>Try It!</h2>
+          </section>
+
+          <section data-transition="fade">
   					<h2>Modifying CSS with JS</h2>
+          </section>
+
+          <section data-transition="fade">
+  					<div class="text-left">
+              <h3>Modifying CSS with JS</h3>
+              <p><span class="orange">element.style.color</span> = <span class="green">'red'</span></p>
+              <p class="fragment"><span class="orange">element.style.fontSize</span> = <span class="green">'38px'</span></p>
+              <p class="fragment"><span class="orange">element.style.borderColor</span> = <span class="green">'#ff0000'</span></p>
+            </div>
+          </section>
+
+          <section data-transition="fade">
+  					<h2>Try It!</h2>
           </section>
 
           <section data-transition="fade">
@@ -112,7 +218,25 @@
           </section>
 
           <section data-transition="fade">
+  					<h2>Interaction</h2>
+            <p>Listening for user interaction, binding to events, updating the DOM accordingly.</p>
+          </section>
+
+          <section data-transition="fade">
   					<h2>Event Listeners</h2>
+          </section>
+
+          <section data-transition="fade">
+  					<div class="text-left">
+              <h3>Event Listeners</h3>
+              <p><span class="orange">document.addEventListener(</span><span class="green">'click'</span>, <span class="blue">handlerFunction</span><span class="orange">)</span></p>
+              <p class="fragment"><span class="orange">document.addEventListener(</span><span class="green">'mouseover'</span>, <span class="blue">handlerFunction</span><span class="orange">)</span></p>
+              <p class="fragment"><span class="orange">document.addEventListener(</span><span class="green">'focus'</span>, <span class="blue">function() { <br />&nbsp;&nbsp;&nbsp;&nbsp;// do something<br /> }</span><span class="orange">)</span></p>
+            </div>
+          </section>
+
+          <section data-transition="fade">
+  					<h2>jQuery</h2>
           </section>
         </section>
         <!-- End Adding Behavior to HTML -->
